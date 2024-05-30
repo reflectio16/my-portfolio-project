@@ -100,6 +100,7 @@ nav .mobile-menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.2s linear;
 
 }
 
@@ -431,7 +432,7 @@ section .content {
 
 @media only screen and (max-width: 900px) {
     
-    .nav-container ul a {
+    .nav-container .links {
         display: none;
     }
 
@@ -447,6 +448,7 @@ section .content {
         left: 5px;
 
     }
+
 
 
     section .content {
