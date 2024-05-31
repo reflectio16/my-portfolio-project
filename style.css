@@ -144,6 +144,7 @@ section .content {
     align-items:flex-start;
     padding-top: .5rem;
     padding-bottom: 2rem;
+    padding-right: 3rem;
    
 }
 
@@ -247,6 +248,13 @@ section .content {
         margin-top: 1.5rem;
     }
 
+    .logos {
+        display: flex;
+        flex-direction: row;
+        column-gap: 3rem;
+        align-items: center;
+    }
+
 
 
     .logos li {
@@ -256,6 +264,7 @@ section .content {
         align-items: center;
         padding-right: 3rem;
         flex-wrap: wrap;
+    
     }
 
 
@@ -523,12 +532,35 @@ section .content {
     margin-left: 5rem;
    }
 
+   nav {
+    max-height: 4.4rem;
+   }
+
    nav svg {
 
     margin-right: 2rem;
     margin-top: .4rem;
 
    }
+
+   .content {
+    margin-left: 2rem;
+    
+   }
+
+   .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5rem;
+    margin-left: -4rem;
+    padding-left: 1rem;
+    
+}
+
+.logos li {
+    padding-right: 1.5rem;
+}
 
    #home-icon {
     margin-bottom: .5rem;
