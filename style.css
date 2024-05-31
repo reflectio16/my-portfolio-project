@@ -430,7 +430,7 @@ section .content {
 
 /* ------ Media Queries Section ------- */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     
     .nav-container .links {
         display: none;
@@ -439,6 +439,9 @@ section .content {
    
     nav svg {
         display: block;
+        margin-top: 1rem;
+       
+        
     }
 
 
@@ -518,6 +521,17 @@ section .content {
 @media only screen and (max-width: 480px) {
    .skills-container {
     margin-left: 5rem;
+   }
+
+   nav svg {
+
+    margin-right: 2rem;
+    margin-top: .4rem;
+
+   }
+
+   #home-icon {
+    margin-bottom: .5rem;
    }
 }
 
