@@ -74,7 +74,6 @@ nav ul a:hover {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* text-fill-color: transparent;  */
     transition: all 1s;
  }
  
