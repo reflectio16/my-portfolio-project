@@ -197,6 +197,7 @@ section .content {
 }
 
 
+
 @keyframes smiley {
 
     0% {
@@ -380,9 +381,8 @@ section .content {
     background: -webkit-linear-gradient(#fc46a4, #3f5efb);
     background: linear-gradient(#fc46a4, #3f5efb);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1s;
+   
   }
 
 
