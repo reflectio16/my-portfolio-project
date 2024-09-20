@@ -358,6 +358,10 @@ section .content {
     transition: all 1s;
   }
 
+  #planner {
+    border: 1px solid #2d2e32;
+  }
+
 
 
  
@@ -380,6 +384,7 @@ section .content {
   .heart {
     background: -webkit-linear-gradient(#fc46a4, #3f5efb);
     background: linear-gradient(#fc46a4, #3f5efb);
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
