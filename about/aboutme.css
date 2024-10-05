@@ -112,7 +112,7 @@ nav ul a:hover {
     transition: all 1s;
  }
 
- .links a {
+ .mobile-homeIcon {
     display: none;
  }
 
@@ -191,6 +191,10 @@ nav ul a:hover {
        font-size: 1rem;
         
 
+    }
+
+    .mobile-homeIcon{
+        display: block;
     }
 
 
