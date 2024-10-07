@@ -507,7 +507,7 @@ section .content {
 
    /* ----- Contact Page ----- */
 
-      .links-contact ul li {
+    .links-contact ul li {
         display: none;
     }
 

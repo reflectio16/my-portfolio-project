@@ -119,29 +119,25 @@ nav ul a:hover {
 
  @media only screen and (max-width: 768px) {
 
+    .links ul li {
+        display: none;
+    }
+
    img {
     display: none;
    }
 
-    .nav-container .links {
-        display:inline-block;
-        margin-left: 25rem;
-        
-    }
-
-   
-    nav svg {
-        display: block;
-        margin-top: 1rem;
-       
-        
-    }
+   .nav-container {
+     display: flex;
+     flex-direction: row;
+     justify-content:right;
+   }
 
 
     .nav-container .logo {
         position: absolute;
         margin: 0;
-        left: 1rem;
+        left: 5px;
         font-size: 1.1rem;
 
     }
@@ -155,7 +151,6 @@ nav ul a:hover {
             padding-left: 2rem;
             padding-right: 2rem;
             
-          
     }
 
     .about-me {
@@ -163,19 +158,40 @@ nav ul a:hover {
         margin-top: 3rem;
     }
 
+
     h1 {
         margin-left: 1.9rem;
     }
 
 
+    .mobile-homeIcon {
+        display: block;
+        color: #2d2e32;
+      
+        
+        
+    }
+
+    .mobile-homeIcon:hover {
+
+        background: -webkit-linear-gradient(#fc46a4, #3f5efb);
+        background: linear-gradient(#fc46a4, #3f5efb);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 1s;
+    }
+
+    #home-icon {
+
+    width: auto;
+    }
+   
+
  }
 
  @media only screen and (max-width: 480px) {
     
-    img {
-        display: none;
-    }
-
     h1 {
         font-size: 1.6rem;
         text-align: left;
@@ -190,21 +206,12 @@ nav ul a:hover {
 
        font-size: 1rem;
         
-
     }
-
-    .mobile-homeIcon{
-        display: block;
-    }
-
 
     #home-icon {
-        display: block;
         margin-bottom: .5rem;
-        color: #2d2e32;
-        padding-right: 3rem;
-       
        }
+    
 
  }
 
