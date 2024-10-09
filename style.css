@@ -38,6 +38,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 
 }
 
@@ -432,7 +433,8 @@ section .content {
 
   .logo-contact{
     color:#2d2e32;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
     
   }
 
@@ -462,6 +464,7 @@ section .content {
         position: absolute;
         margin: 0;
         left: 5px;
+    
 
     }
 
@@ -545,6 +548,10 @@ section .content {
     margin-right: 2rem;
     margin-top: .4rem;
 
+   }
+
+   .nav-container-logo {
+    font-size: 1.3rem;
    }
 
    .content {

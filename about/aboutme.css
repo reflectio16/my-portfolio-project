@@ -13,8 +13,8 @@ h1, p {
 
 
 h1 {
-    padding-left: 35px;
-    margin-bottom: 48px;
+    padding-left: 3.9rem;
+    margin-bottom: 3rem;
     color: #2d2e32;
     font-size: 2.3rem;
    
@@ -36,7 +36,7 @@ h1 {
 
 
 .about-me p {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     width: 90%;
     line-height: 29px;
     font-size: 18px;
@@ -46,28 +46,9 @@ h1 {
 }
 
 img {
-    margin-top: 20px;
+    margin-top: 2.5rem;
     border-radius: 30px 30%;
-    
     border: 1px solid #2d2e32;
-}
-
-
-.nav-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.nav-container .logo {
-    margin-left: 2.5rem;
-    font-size: 1.5rem;
-    color: #2d2e32;
-
 }
 
 
@@ -76,9 +57,8 @@ nav {
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color: #fff;
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, .09);
     
 }
@@ -89,6 +69,7 @@ nav ul {
     list-style: none;
     float:right;
     margin-right: 3rem;
+    
 }
 
 
@@ -97,6 +78,7 @@ nav ul a {
     font-weight: 600;
     text-decoration: none;
     transition: all .23s;
+    font-size: 1.2rem;
     font-size: 1.2rem;
       
 }
@@ -111,6 +93,32 @@ nav ul a:hover {
     /* text-fill-color: transparent;  */
     transition: all 1s;
  }
+ 
+
+
+ .nav-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.nav-container .logo {
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    color: #2d2e32;
+   
+
+}
+
+.nav-container, .logo, .links, ul, li, a  {
+    background-color: #fff;
+
+}
 
  .mobile-homeIcon {
     display: none;
@@ -136,9 +144,10 @@ nav ul a:hover {
 
     .nav-container .logo {
         position: absolute;
-        margin: 0;
+        margin-left: .5rem;
         left: 5px;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+
 
     }
 
@@ -160,7 +169,8 @@ nav ul a:hover {
 
 
     h1 {
-        margin-left: 1.9rem;
+        margin-left: 1.6rem;
+        font-size: 2rem;
     }
 
 
@@ -197,14 +207,18 @@ nav ul a:hover {
         text-align: left;
         width: 100%;
         margin-left: 0;
-        margin-right: 2rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
         padding-left: 0;
     }
+
+    nav {
+        max-height: 4.4rem;
+       }
 
     .about-me p {
 
        font-size: 1rem;
+       margin-bottom: 1rem;
         
     }
 
