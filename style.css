@@ -296,8 +296,8 @@ section .content {
    .project-container p {
     text-align: center;
     width: 65%;
-    margin: 0 auto;
-    margin-top: 1rem;
+    margin-inline: auto;
+    margin-top: 2rem;
     line-height: 2rem;
     font-size: 1.1rem;
     
